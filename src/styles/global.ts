@@ -23,7 +23,7 @@ body{
 body, input, textarea, button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1rem;
 } 
 
 `

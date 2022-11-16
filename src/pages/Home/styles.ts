@@ -17,10 +17,6 @@ export const HomeContainer = styled.main`
     }
 `
 
-
-
-
-
 export const BaseCountdownButton = styled.button`
     width: 100%;
     border: 0;
@@ -42,8 +38,6 @@ export const BaseCountdownButton = styled.button`
         opacity: 0.7;
         cursor: not-allowed;
     }
-
-
 `
 export const StartCountdownButton = styled(BaseCountdownButton)`
     background: ${props => props.theme['green-500']};
@@ -53,7 +47,6 @@ export const StartCountdownButton = styled(BaseCountdownButton)`
     }
 
 `
-
 export const StopCountdownButton = styled(BaseCountdownButton)`
     background: ${props => props.theme['red-500']};
 
